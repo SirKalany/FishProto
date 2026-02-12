@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+body {
+  background-color: white;
+  color: #111827;
+}
+
+/* Ajoutez les classes pour les couleurs custom */
+.bg-primary {
+  background-color: #232425;
+}
+
+.text-primary {
+  color: #232425;
+}
+
+.bg-primary-dark {
+  background-color: #0f1010;
+}
+
+.from-primary {
+  --tw-gradient-from: #232425;
+}
+
+.to-primary-dark {
+  --tw-gradient-to: #0f1010;
+}
+
+.border-primary {
+  border-color: #232425;
+}
+
+.hover\:bg-primary:hover {
+  background-color: #232425;
+}
+
+.hover\:bg-primary-dark:hover {
+  background-color: #0f1010;
+}
+
+.hover\:text-primary:hover {
+  color: #232425;
+}
+
+.bg-secondary {
+  background-color: #B7B789;
+}
+
+.text-secondary {
+  color: #B7B789;
+}
+
+.btn-primary {
+  background-color: #232425;
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #0f1010;
+}
+
+.btn-secondary {
+  background-color: #B7B789;
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+  background-color: #9a9b70;
+}
+
+.btn-outline {
+  border: 2px solid #232425;
+  color: #232425;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+
+.btn-outline:hover {
+  background-color: #232425;
+  color: white;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.input-field:focus {
+  border-color: #232425;
+  box-shadow: 0 0 0 3px rgba(35, 36, 37, 0.1);
+}
+
+.section-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 3rem;
+  }
+}
